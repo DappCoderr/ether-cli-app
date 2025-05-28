@@ -1,11 +1,6 @@
-import { config } from "dotenv";
 import { formatEther, JsonRpcProvider, parseEther, Wallet } from "ethers";
 import readline from "readline-sync";
-
-config();
-
-const rpc = process.env.RPC_PROVIDER;
-const api = process.env.PRIVATE_KEY;
+import { rpc, api } from "./config";
 
 const provider = new JsonRpcProvider(rpc);
 const wallet = new Wallet(api, provider);
