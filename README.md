@@ -2,18 +2,18 @@
 
 A simple Ethereum command-line wallet built with **ethers.js**. This wallet lets you check balances and send ETH using a terminal interface.
 
-## ✨ Features
+## Features
 
-- 🧾 Check the ETH balance of any address
-- 💸 Send ETH from your wallet to another address
-- 🔐 Uses environment variables for secure key and RPC management
+- Check the ETH balance of any address
+- Send ETH from your wallet to another address
+- Uses environment variables for secure key and RPC management
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/DappCoderr/ether-cli-app.git
+git clone https://github.com/DappCoderr/ether-cli-wallet.git
 cd ether-cli-wallet
 ```
 
@@ -32,15 +32,14 @@ RPC_PROVIDER=your_rpc_url_here
 PRIVATE_KEY=your_private_key_here
 ```
 
-> ✅ Use a service like [Alchemy](https://www.alchemy.com/) or [Infura](https://infura.io/) to get an RPC URL.
-> ⚠️ **Never share your private key publicly.**
+> Use a service like [Alchemy](https://www.alchemy.com/) or [Infura](https://infura.io/) to get an RPC URL.
 
-## 🚀 Usage
+## Usage
 
 Run the wallet from the terminal:
 
 ```bash
-node index.js
+node src/index.js
 ```
 
 Follow the prompts:
@@ -55,13 +54,14 @@ What do you want to do?
 >
 ```
 
-### 🔍 Check Balance
+### Check Balance
 
-Enter any Ethereum address to see its balance in ETH.
+- Enter any Ethereum address to see its balance in ETH.
 
-### ✉️ Send ETH
+### ✉Send ETH
 
-Provide the recipient address and the amount of ETH to send. The transaction will be sent using your wallet and you’ll get the transaction hash once it's confirmed.
+- Provide the recipient address and the amount of ETH to send the transaction.
+- You’ll get the transaction hash once it's confirmed.
 
 ## 🧠 Built With
 
