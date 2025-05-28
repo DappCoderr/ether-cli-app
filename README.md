@@ -58,12 +58,12 @@ What do you want to do?
 
 - Enter any Ethereum address to see its balance in ETH.
 
-### ✉Send ETH
+### Send ETH
 
 - Provide the recipient address and the amount of ETH to send the transaction.
 - You’ll get the transaction hash once it's confirmed.
 
-## 🧠 Built With
+## Built With
 
 - [ethers.js](https://docs.ethers.org/)
 - [dotenv](https://www.npmjs.com/package/dotenv)
