@@ -1,6 +1,6 @@
 # ether-cli-wallet
 
-A simple Ethereum command-line wallet built with **ethers.js**. This wallet lets you check balances and send ETH using a terminal interface.
+A Ethereum command-line wallet built with **ethers.js**. This wallet lets you check balances and send ETH using a terminal interface.
 
 ## Features
 
